@@ -1,23 +1,5 @@
-import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.optim import lr_scheduler
-import numpy as np
 import torchvision
-from torchvision import datasets, models, transforms, utils
-from torch.utils.data import Dataset, DataLoader
-import torch.nn.functional as F
-
-import matplotlib.pyplot as plt
-import time
-import os
-import copy
-import pandas as pd
-from PIL import Image
-from skimage import io, transform
-import random
-from tqdm import tqdm
-from sklearn.utils import shuffle
+from torchvision import models
 
 class Vgg16FeatureModel(object):
     
